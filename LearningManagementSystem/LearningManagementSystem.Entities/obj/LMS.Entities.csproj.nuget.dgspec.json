@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj": {}
+    "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj": {}
   },
   "projects": {
-    "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj": {
+    "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj",
+        "projectUniqueName": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj",
         "projectName": "LMS.Entities",
-        "projectPath": "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj",
+        "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.Entities\\obj\\",
+        "outputPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

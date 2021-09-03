@@ -60,7 +60,7 @@ namespace LearningManagementSystem.UI
                                             user.UserPassword = Console.ReadLine();
                                             string UserEmail = user.UserEmail;
                                             Console.WriteLine(loginService.LoginUser(user));
-                                            break;
+                                            break; 
                                         }
                                     case 3:
                                         {
@@ -87,11 +87,14 @@ namespace LearningManagementSystem.UI
                                 Console.Write("Enter Email [abc@gmail.com]: ");
                                 user.UserEmail = Console.ReadLine();
                             PaswordType:
-                                do
-                                {
+                                
                                     Console.Write("Enter password [Length- (8-15), one Upper Case, one Lower Case]: ");
                                     user.UserPassword = Console.ReadLine();
-                                } while (!RegisterValidation.ValidatePassword(user.UserPassword));
+                                if (!RegisterValidation.ValidatePassword(user.UserPassword))
+                                {
+                                    Console.WriteLine("Your Password is meeting the requirements!! Please try again: ");
+                                    goto PaswordType;
+                                }
                                
                                     Console.Write("Retype Password: ");
                                     passwordRetype = Console.ReadLine(); 

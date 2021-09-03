@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qRKS+KXVxjfnGpQvMo+rn0tMnsawZvOMu5HN3DWhdwsVQaAiX11Y+zJSimPmsm5GkCIX+u7KFYRyATt31wpFFw==",
+  "dgSpecHash": "sR3tKOc2t4/slmQa1ByKJjRaUFTGW55+clYMsMwXfwFULzvqXjLFY8BBJFzX5QKaZwyTQE/8BsRf2HteAJ1oMw==",
   "success": true,
-  "projectFilePath": "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.BAL\\LMS.BAL.csproj",
+  "projectFilePath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.BAL\\LMS.BAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
