@@ -1,0 +1,11 @@
+G:\Module2Sprint\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.Entities\bin\Debug\net5.0\LearningManagementSystem.Entities.deps.json
+G:\Module2Sprint\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.Entities\bin\Debug\net5.0\LearningManagementSystem.Entities.dll
+G:\Module2Sprint\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.Entities\bin\Debug\net5.0\ref\LearningManagementSystem.Entities.dll
+G:\Module2Sprint\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.Entities\bin\Debug\net5.0\LearningManagementSystem.Entities.pdb
+G:\Module2Sprint\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LearningManagementSystem.Entities.GeneratedMSBuildEditorConfig.editorconfig
+G:\Module2Sprint\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LearningManagementSystem.Entities.AssemblyInfoInputs.cache
+G:\Module2Sprint\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LearningManagementSystem.Entities.AssemblyInfo.cs
+G:\Module2Sprint\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LearningManagementSystem.Entities.csproj.CoreCompileInputs.cache
+G:\Module2Sprint\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LearningManagementSystem.Entities.dll
+G:\Module2Sprint\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\ref\LearningManagementSystem.Entities.dll
+G:\Module2Sprint\LMS-Sprint-1-Case-Study\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LearningManagementSystem.Entities.pdb
