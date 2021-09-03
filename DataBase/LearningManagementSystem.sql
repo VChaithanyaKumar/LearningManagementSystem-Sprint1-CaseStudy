@@ -1,7 +1,7 @@
 --creating database named LearningManagementSystem
 create database LearningManagementSystem
 
-use LearningManagementSystem
+using LearningManagementSystem
 
 --created a table named Users
 create table [User](UserType varchar(20) check(UserType in('Admin','Learner')),
@@ -54,10 +54,8 @@ create table CourseEnroll(EnrollId numeric(10) primary key,
 UserId numeric(10) foreign key references [User](UserId),
 CourseId numeric(10) foreign key references Course(CourseId),
 DateOfEnrollment datetime default getdate(),
-DateOfCompletion datetime default null,
-CourseStatus bit default null)
-
-
+DateOfCompletion datetime ,
+CourseStatus bit)
 
 
 --created a table named Question
