@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace LMS.BAL.Validations
 {
-    class AdminValidations
+    public class AdminValidations
     {
+        public static bool ValidateAssignCode()
+        {
+            return true;
+        }
+
     }
 }

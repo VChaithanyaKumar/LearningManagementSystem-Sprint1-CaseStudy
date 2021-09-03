@@ -13,6 +13,7 @@ namespace LearningManagementSystem.UI
             {
                 RegisterService registerService = null;
                 LoginService loginService = null;
+                AdminServices adminServices = null;
                 User user = null;
                 do
                 {
@@ -45,7 +46,33 @@ namespace LearningManagementSystem.UI
                                             Console.Write("Enter Password: ");
                                             user.UserPassword = Console.ReadLine();
 
-                                            Console.WriteLine(loginService.LoginUser(user));
+                                            if (loginService.LoginUser(user))
+                                            {
+                                                Console.WriteLine("Admin Services");
+                                                Console.WriteLine("-------------------------");
+                                                Console.WriteLine("Enter Admin Service to do");
+                                                Console.WriteLine("Enter [7] to Assign a Course");
+                                                int adminServiceOption = int.Parse(Console.ReadLine());
+                                                switch (adminServiceOption)
+                                                {
+                                                    case 7:
+                                                        {
+                                                            adminServices = new AdminServices();
+                                                            Console.Write("Enter User email to assign a course: ");
+                                                            string UserEmail = Console.ReadLine();
+                                                            Console.WriteLine("Enter Course Title to assign: ");
+                                                            string CourseTitle = Console.ReadLine();
+                                                            adminServices.AssignCourse(UserEmail, CourseTitle);
+
+                                                            break;
+                                                        }
+                                                    default:
+                                                        {
+                                                            Console.WriteLine("Invalid choice");
+                                                            break;
+                                                        }
+                                                } 
+                                            }
                                             break;
                                         }
                                     case 2:

@@ -26,5 +26,9 @@ namespace LMS.BAL.Validations
             else
                 return false;
         }
+        public static bool LoginFlag()
+        {
+            return true;
+        }
     }
 }

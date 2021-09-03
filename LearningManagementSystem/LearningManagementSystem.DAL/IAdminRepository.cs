@@ -8,5 +8,6 @@ namespace LMS.DAL
 {
     interface IAdminRepository
     {
+        void AssignCourse(string UserEmail, string CourseTitle);
     }
 }

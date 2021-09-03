@@ -12,24 +12,29 @@ namespace LMS.BAL
     {
         private LoginRepository login = new LoginRepository();
         User userObj = new User();
-        public string LoginUser(User user)
+        public bool LoginUser(User user)
         {
             userObj=login.GetLoginDetails(user.UserEmail);
             if (userObj == null)
             {
-                return "Invalid Email";
+                Console.WriteLine("Invalid Email");
+                return false;
             }
             if (!LoginValidation.CheckUserType(user.UserType,userObj.UserType))
             {
-                return "User is not " + user.UserType;
+                Console.WriteLine("User is not " + user.UserType);
+                return false;
             }
             if (LoginValidation.CheckPassword(user.UserPassword, userObj.UserPassword))
             {
-                return "Logged In!!";
+                Console.WriteLine("Logged In!!");
+                return LoginValidation.LoginFlag();
+                
             }
             else
             {
-                return "Invalid Password!! ";
+                Console.WriteLine("Invalid Password!! ");
+                return false;
             }
 
         }

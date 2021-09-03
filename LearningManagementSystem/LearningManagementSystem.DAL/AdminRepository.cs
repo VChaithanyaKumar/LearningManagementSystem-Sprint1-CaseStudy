@@ -8,7 +8,7 @@ using System.Data;
 using System.Collections.Generic;
 namespace LMS.DAL
 {
-    class AdminRepository: IAdminRepository
+    public class AdminRepository: IAdminRepository
     {
         //Connecting to Database--Praveena
         SqlConnection connection = new SqlConnection(@"Data Source=NAINACHINNA\SQLEXPRESS;Initial Catalog=LearningManagementSystem;Integrated Security=True");
@@ -24,5 +24,31 @@ namespace LMS.DAL
         //SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-S7KB19C\SQLEXPRESS01;Initial Catalog=LearningManagementSystem;Integrated Security=True");
 
         SqlCommand command = null;
+
+        public void AssignCourse(string UserEmail, string CourseTitle)
+        {
+            try
+            {
+                command = new SqlCommand("AssignCourse", connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                command.Parameters.AddWithValue("@UserEmail", UserEmail);
+                command.Parameters.AddWithValue("@CourseTitle", CourseTitle);
+                command.Parameters.AddWithValue("@AssignCourseReturnMsg","out");
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                connection.Close();
+            }
+            
+        }
     }
 }
