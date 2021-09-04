@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,5 +14,9 @@ namespace LMS.DAL
         void UpdateCourseDescription(Course course);
         void UpdateCourseOutComes(Course course);
         List<string> GetCourseTitles();
+        void DeleteCourse(string CourseTitle);
+        ArrayList GenerateReport(string UserEmail);
+        void UpdateUser(string UserEmail, string OldPassword, string NewPassword);
+        void DeleteUser(string UserEmail);
     }
 }

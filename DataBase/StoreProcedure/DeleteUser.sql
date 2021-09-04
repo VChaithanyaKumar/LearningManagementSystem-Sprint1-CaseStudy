@@ -7,5 +7,3 @@ select @UserId=UserId from [User] where UserEmail=@UserEmail
 delete from CourseEnroll where UserId=@UserId
 delete from [User] where UserEmail=@UserEmail
 end 
-go
-

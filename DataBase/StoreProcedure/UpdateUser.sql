@@ -10,4 +10,9 @@ set UserPassword=@UserNewPassword
 where UserEmail=@UserEmail and UserPassword=@UserOldPassword;
 
 end
-go
+select * from [User]
+select * from Course
+select * from CourseEnroll
+select * from Question
+select * from Result
+exec UpdatePassword 'naveena.vella1999@gmail.com','05081997@Gmail','Gmail@05081997'
