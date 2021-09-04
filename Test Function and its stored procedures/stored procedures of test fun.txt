@@ -1,0 +1,70 @@
+--procedure to get completed courses of a user using userid
+create procedure CompletedCourses(@UserId numeric(10))
+as
+begin
+select t1.CourseId,t2.CourseTitle from CourseEnroll t1 join Course t2 on t1.CourseId=t2.CourseId where t1.UserId=102 and CourseStatus='Completed'
+end
+
+
+
+--inserting into result table before starting the test
+create procedure StartTest(@UserId NUMERIC(10),@CourseId numeric(10))
+as
+begin
+insert into Result(UserId,CourseId) values(@UserId,@CourseId)
+end
+
+
+
+
+--procedure to get number of questions related to a course
+create procedure CourseQuestionNo(@CourseId numeric(10))
+as
+begin
+select COUNT(QuestionId) from Question group by CourseId having CourseId=201
+end
+
+
+
+--procedure to get questionIds related to a course
+create procedure CourseQuestion(@CourseId numeric(10))
+as
+begin
+select QuestionId from question where CourseId=@CourseId
+end
+
+
+
+--procedure to get question
+create procedure GetQuestion(@QuestionId numeric(10))
+as
+begin
+select QuestionDescription from Question where QuestionId=@QuestionId
+end
+
+
+
+
+--procedure to get answer
+create procedure GetAnswer(@QuestionId numeric(10))
+as
+begin
+select AnswerDescription from Question where QuestionId=@QuestionId
+end
+
+
+exec GetAnswer 301
+select * from [User]
+select * from Result
+
+select * from Question
+
+
+
+
+--procedure to update the percentage in result table
+create procedure UpdateResult(@UserId numeric(10),@CourseId numeric(10),@Percentage numeric(10,2))
+as
+begin
+update Result set ResultDescription=@Percentage where UserId=@UserId and CourseId=@CourseId
+end
