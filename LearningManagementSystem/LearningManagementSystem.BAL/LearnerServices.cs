@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace LMS.BAL
 {
-    class LearnerServices
+    public class LearnerServices
     {
         private LearnerRepository learnerRepository = new LearnerRepository();
-        public void AssignCourse(string UserEmail, string CourseTitle)
+        public void EnrollCourse(string UserEmail, string CourseTitle)
         {
 
             try
@@ -18,12 +18,18 @@ namespace LMS.BAL
                 learnerRepository.EnrollCourse(UserEmail, CourseTitle);
                 Console.WriteLine("User is Enrolled to Course Successfully");
             }
-            catch (Exception)
+            catch (Exception e)
             {
-                Console.WriteLine("Entered User Email or CourseId is wrong.");
+                Console.WriteLine(e.Message);
 
             }
 
+        }
+        public void GetCourseTitles()
+        {
+            int i = 1;
+            List<string> course = learnerRepository.GetCourseTitles();
+            course.ForEach(value => Console.WriteLine((i++) +". " + value));
         }
     }
 }
