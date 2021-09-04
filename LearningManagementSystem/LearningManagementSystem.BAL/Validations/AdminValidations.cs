@@ -8,7 +8,7 @@ namespace LMS.BAL.Validations
 {
     public class AdminValidations
     {
-        public static bool ValidateAssignCode()
+        public static bool ValidateAssignCourse()
         {
             return true;
         }

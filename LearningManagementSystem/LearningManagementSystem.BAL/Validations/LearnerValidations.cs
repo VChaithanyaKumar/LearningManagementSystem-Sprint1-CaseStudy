@@ -8,6 +8,10 @@ namespace LMS.BAL.Validations
 {
     class LearnerValidations
     {
+        public static bool ValidateEnrollCourse()
+        {
+            return true;
+        }
 
     }
 }

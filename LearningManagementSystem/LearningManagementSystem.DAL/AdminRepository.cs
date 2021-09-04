@@ -35,7 +35,7 @@ namespace LMS.DAL
                 };
                 command.Parameters.AddWithValue("@UserEmail", UserEmail);
                 command.Parameters.AddWithValue("@CourseTitle", CourseTitle);
-                command.Parameters.AddWithValue("@AssignCourseReturnMsg","out");
+                //command.Parameters.AddWithValue("@AssignCourseReturnMsg","out");
                 connection.Open();
                 command.ExecuteNonQuery();
             }

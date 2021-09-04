@@ -8,5 +8,6 @@ namespace LMS.DAL
 {
     interface ILearnerRepository
     {
+        void EnrollCourse(string UserEmail, string CourseTitle);
     }
 }
