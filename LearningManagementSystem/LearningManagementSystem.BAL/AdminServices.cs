@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using LMS.DAL;
 using System.Threading.Tasks;
-
+using LearningManagementSystem.Entities;
 namespace LMS.BAL
 {
     public class AdminServices
@@ -24,6 +24,23 @@ namespace LMS.BAL
                 
             }
            
+        }
+        
+        public void UpdateCourseDescription(Course course)
+        {
+            adminRepository.UpdateCourseDescription(course);
+
+        }
+        public void UpdateCourseOutCome(Course course)
+        {
+            adminRepository.UpdateCourseOutComes(course);
+
+        }
+        public void GetCourseTitles()
+        {
+            int i = 1;
+            List<string> course = adminRepository.GetCourseTitles();
+            course.ForEach(value => Console.WriteLine((i++) + ". " + value));
         }
     }
 }

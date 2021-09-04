@@ -24,6 +24,33 @@ namespace LMS.DAL
         //Connecting to Database--Nimisha
         //SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-S7KB19C\SQLEXPRESS01;Initial Catalog=LearningManagementSystem;Integrated Security=True");
         SqlCommand command = null;
+
+        public void CompleteCourse(string UserEmail, string CourseTitle)
+        {
+            try
+            {
+                command = new SqlCommand("CompleteCourse", connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                command.Parameters.AddWithValue("@UserEmail", UserEmail);
+                command.Parameters.AddWithValue("@CourseTitle", CourseTitle);
+                //command.Parameters.AddWithValue("@AssignCourseReturnMsg","out");
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                connection.Close();
+            }
+
+        }
+
         public void EnrollCourse(string UserEmail, string CourseTitle)
         {
             try
@@ -81,5 +108,6 @@ namespace LMS.DAL
             }
 
         }
+
     }
 }

@@ -1595,11 +1595,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
+      "projectUniqueName": "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
       "projectName": "LMS.UI",
-      "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
+      "projectPath": "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.UI\\LMS.UI.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.UI\\obj\\",
+      "outputPath": "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1616,14 +1616,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.BAL\\LMS.BAL.csproj": {
-              "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.BAL\\LMS.BAL.csproj"
+            "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.BAL\\LMS.BAL.csproj": {
+              "projectPath": "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.BAL\\LMS.BAL.csproj"
             },
-            "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.DAL\\LMS.DAL.csproj": {
-              "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.DAL\\LMS.DAL.csproj"
+            "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.DAL\\LMS.DAL.csproj": {
+              "projectPath": "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.DAL\\LMS.DAL.csproj"
             },
-            "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj": {
-              "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj"
+            "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj": {
+              "projectPath": "G:\\MyCopyLMS\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj"
             }
           }
         }

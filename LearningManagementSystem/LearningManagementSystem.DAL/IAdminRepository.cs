@@ -10,5 +10,8 @@ namespace LMS.DAL
     {
         void AssignCourse(string UserEmail, string CourseTitle);
         //List<CourseEnroll> GenerateReport(string UserEmail);
+        void UpdateCourseDescription(Course course);
+        void UpdateCourseOutComes(Course course);
+        List<string> GetCourseTitles();
     }
 }

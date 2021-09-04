@@ -31,5 +31,18 @@ namespace LMS.BAL
             List<string> course = learnerRepository.GetCourseTitles();
             course.ForEach(value => Console.WriteLine((i++) +". " + value));
         }
+        public void CompleteCourse(string UserEmail,string CourseTitle)
+        {
+            try
+            {
+                learnerRepository.CompleteCourse(UserEmail, CourseTitle);
+                Console.WriteLine("Completed the Course Successfully!!");
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine(e.Message);
+            }
+        }
     }
 }

@@ -11,5 +11,6 @@ namespace LMS.DAL
     {
         void EnrollCourse(string UserEmail, string CourseTitle);
         List<string> GetCourseTitles();
+        void CompleteCourse(string UserEmail, string CourseTitle);
     }
 }

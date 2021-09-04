@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 using System.Collections.Generic;
+using LearningManagementSystem.Entities;
 namespace LMS.DAL
 {
     public class AdminRepository: IAdminRepository
@@ -50,5 +51,85 @@ namespace LMS.DAL
             }
             
         }
+        public void UpdateCourseDescription(Course course)
+        {
+            try
+            {
+                command = new SqlCommand("UpdateCourseDescription", connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                command.Parameters.AddWithValue("@CourseId", course.CourseId);
+                command.Parameters.AddWithValue("@CourseDescription", course.CourseDescription);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+        public void UpdateCourseOutComes(Course course)
+        {
+            try
+            {
+                command = new SqlCommand("UpdateCourseOutcome", connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                command.Parameters.AddWithValue("@CourseId", course.CourseId);
+                command.Parameters.AddWithValue("@CourseOutcomes", course.CourseOutcomes);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+        public List<string> GetCourseTitles()
+        {
+            try
+            {
+                command = new SqlCommand("GetCourseTitles", connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                connection.Open();
+                SqlDataReader dr = command.ExecuteReader();
+                List<string> course = new List<string>();
+                if (dr.HasRows)
+                {
+                    while (dr.Read())
+                    {
+                        course.Add(dr["CourseTitle"].ToString());
+                    }
+
+                }
+                return course;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                connection.Close();
+            }
+
+        }
+
+        
     }
 }

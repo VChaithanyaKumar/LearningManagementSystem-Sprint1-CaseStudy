@@ -6,9 +6,13 @@ using System.Threading.Tasks;
 
 namespace LMS.BAL.Validations
 {
-    class LearnerValidations
+    public class LearnerValidations
     {
         public static bool ValidateEnrollCourse()
+        {
+            return true;
+        }
+        public static bool ValidateCompleteCourse()
         {
             return true;
         }
