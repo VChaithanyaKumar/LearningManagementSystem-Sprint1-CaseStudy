@@ -10,6 +10,7 @@ namespace LMS.BAL
     public class LearnerServices
     {
         private LearnerRepository learnerRepository = new LearnerRepository();
+        //Enrollment to course
         public void EnrollCourse(string UserEmail, string CourseTitle)
         {
 
@@ -25,12 +26,14 @@ namespace LMS.BAL
             }
 
         }
+        //Get all course titles
         public void GetCourseTitles()
         {
             int i = 1;
             List<string> course = learnerRepository.GetCourseTitles();
             course.ForEach(value => Console.WriteLine((i++) +". " + value));
         }
+        //Mark course as complete
         public void CompleteCourse(string UserEmail,string CourseTitle)
         {
             try

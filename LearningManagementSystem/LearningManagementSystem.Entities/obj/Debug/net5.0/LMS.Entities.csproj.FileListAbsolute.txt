@@ -46,3 +46,15 @@ F:\Module-2\Group-3-practice-repository\LearningManagementSystem\LearningManagem
 F:\Module-2\Group-3-practice-repository\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LMS.Entities.dll
 F:\Module-2\Group-3-practice-repository\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\ref\LMS.Entities.dll
 F:\Module-2\Group-3-practice-repository\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LMS.Entities.pdb
+G:\Capgemini Training\Final-LMS Sprint1\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LearningManagementSystem.Entities\bin\Debug\net5.0\LMS.Entities.deps.json
+G:\Capgemini Training\Final-LMS Sprint1\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LearningManagementSystem.Entities\bin\Debug\net5.0\LMS.Entities.dll
+G:\Capgemini Training\Final-LMS Sprint1\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LearningManagementSystem.Entities\bin\Debug\net5.0\ref\LMS.Entities.dll
+G:\Capgemini Training\Final-LMS Sprint1\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LearningManagementSystem.Entities\bin\Debug\net5.0\LMS.Entities.pdb
+G:\Capgemini Training\Final-LMS Sprint1\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LMS.Entities.csproj.AssemblyReference.cache
+G:\Capgemini Training\Final-LMS Sprint1\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LMS.Entities.GeneratedMSBuildEditorConfig.editorconfig
+G:\Capgemini Training\Final-LMS Sprint1\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfoInputs.cache
+G:\Capgemini Training\Final-LMS Sprint1\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfo.cs
+G:\Capgemini Training\Final-LMS Sprint1\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LMS.Entities.csproj.CoreCompileInputs.cache
+G:\Capgemini Training\Final-LMS Sprint1\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LMS.Entities.dll
+G:\Capgemini Training\Final-LMS Sprint1\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\ref\LMS.Entities.dll
+G:\Capgemini Training\Final-LMS Sprint1\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LearningManagementSystem.Entities\obj\Debug\net5.0\LMS.Entities.pdb

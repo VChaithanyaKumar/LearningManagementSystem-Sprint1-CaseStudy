@@ -12,11 +12,11 @@ namespace LMS.DAL
     public class AdminRepository: IAdminRepository
     {
         //Connecting to Database--Praveena
-        SqlConnection connection = new SqlConnection(@"Data Source=NAINACHINNA\SQLEXPRESS;Initial Catalog=LearningManagementSystem;Integrated Security=True");
+        //SqlConnection connection = new SqlConnection(@"Data Source=NAINACHINNA\SQLEXPRESS;Initial Catalog=LearningManagementSystem;Integrated Security=True");
         //Connecting to Database--SaiKiran
         //SqlConnection connection = new SqlConnection(@"Data Source=LAPTOP-P4UMIEHT\SQLEXPRESS;Initial Catalog=LearningManagementSystem;Integrated Security=True");
         //Connecting to Database--Josy
-        //SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-N7MA7MU\SQLEXPRESS;Initial Catalog=LearningManagementSystem;Integrated Security=True");
+        SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-N7MA7MU\SQLEXPRESS;Initial Catalog=LearningManagementSystem;Integrated Security=True");
         //Connecting to Database--Chaitanya
         //SqlConnection connection = new SqlConnection(@"Data Source=LAPTOP-74GBGMH9\SQLEXPRESS;Initial Catalog=LearningManagementSystem;Integrated Security=True");
         //Connecting to Database--Urjita
@@ -25,6 +25,8 @@ namespace LMS.DAL
         //SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-S7KB19C\SQLEXPRESS01;Initial Catalog=LearningManagementSystem;Integrated Security=True");
 
         SqlCommand command = null;
+        //Functionalities Related to User
+        //Update user password
         public void UpdateUser(string UserEmail,string OldPassword,string NewPassword)
         {
             try
@@ -49,6 +51,7 @@ namespace LMS.DAL
                 connection.Close();
             }
         }
+        //delete user
         public void DeleteUser(string UserEmail)
         {
             try
@@ -119,6 +122,8 @@ namespace LMS.DAL
             }
             
         }
+        //Functionalities related to Courses
+        //update course description
         public void UpdateCourseDescription(Course course)
         {
             try
@@ -142,6 +147,7 @@ namespace LMS.DAL
                 connection.Close();
             }
         }
+        //update course outcomes
         public void UpdateCourseOutComes(Course course)
         {
             try
@@ -165,6 +171,58 @@ namespace LMS.DAL
                 connection.Close();
             }
         }
+        //add new course to database
+        public void AddCourse(Course course)
+        {
+            try
+            {
+                command = new SqlCommand("AddCourse", connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                command.Parameters.AddWithValue("@CourseTitle", course.CourseTitle);
+                command.Parameters.AddWithValue("@CourseDescription", course.CourseDescription);
+                command.Parameters.AddWithValue("@CourseOutcomes", course.CourseOutcomes);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+        //add new questions for the new course
+        public void AddCourseQuestion(Question question, Course course)
+        {
+            try
+            {
+                command = new SqlCommand("AddCourseQuestion", connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                command.Parameters.AddWithValue("@CourseTitle", course.CourseTitle);
+                command.Parameters.AddWithValue("@QuestionDescription", question.QuestionDescription);
+                command.Parameters.AddWithValue("@AnswerDescription", question.AnswerDescription);
+                connection.Open();
+                command.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+        
+
         //gets the Course Titles
         public List<string> GetCourseTitles()
         {
@@ -198,6 +256,7 @@ namespace LMS.DAL
             }
 
         }
+        //Get course-status of user with UserId
         public ArrayList CourseStatus(decimal UserId)
         {
             try
@@ -233,6 +292,7 @@ namespace LMS.DAL
                 connection.Close();
             }
         }
+        //generate report of user using their email addres
         public ArrayList GenerateReport(string UserEmail)
         {
             try

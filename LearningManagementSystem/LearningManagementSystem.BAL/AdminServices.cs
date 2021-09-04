@@ -11,6 +11,8 @@ namespace LMS.BAL
     public class AdminServices
     {
         private AdminRepository adminRepository = new AdminRepository();
+        //Admin Services related to User
+        //update user password
         public void UpdatePassword(string UserEmail,string OldPassword,string NewPassword)
         {
             try
@@ -23,6 +25,7 @@ namespace LMS.BAL
                 Console.WriteLine(e.Message);
             }
         }
+        //Delete user
         public void DeleteUser(string UserEmail)
         {
             try
@@ -36,6 +39,7 @@ namespace LMS.BAL
                 Console.WriteLine(e.Message);
             }
         }
+        //Assign user to course
         public void AssignCourse(string UserEmail,string CourseTitle)
         {
 
@@ -52,27 +56,43 @@ namespace LMS.BAL
            
         }
 
-        
+        //Admin Services related to Courses
+        //update course description details
         public void UpdateCourseDescription(Course course)
         {
             adminRepository.UpdateCourseDescription(course);
 
         }
+        //update course outcome details
         public void UpdateCourseOutCome(Course course)
         {
             adminRepository.UpdateCourseOutComes(course);
 
         }
+        //adding new course
+        public void AddCourse(Course course)
+        {
+            adminRepository.AddCourse(course);
+
+        }
+        //adding questions to new course
+        public void AddCourseQuestion(Question question, Course course)
+        {
+            adminRepository.AddCourseQuestion(question, course);
+        }
+        //get all course titles
         public void GetCourseTitles()
         {
             int i = 1;
             List<string> course = adminRepository.GetCourseTitles();
             course.ForEach(value => Console.WriteLine((i++) + ". " + value));
         }
+        //delete course
         public void DeleteCourse(string CourseTitle)
         {
             adminRepository.DeleteCourse(CourseTitle);
         }
+        //Get Course-status of particular user
         public void CourseStatus(decimal UserId)//userId need to decimal
         {
             ArrayList courseStatus = adminRepository.CourseStatus(UserId);
@@ -81,13 +101,13 @@ namespace LMS.BAL
                 Console.WriteLine($"{s}");
             }
         }
+        //Generate report of particular user
         public void GenearteReport(string UserEmail)
         {
             ArrayList records = adminRepository.GenerateReport(UserEmail);
             foreach (var r in records)
             {
                 Console.WriteLine($"{r}");
-
 
 
             }

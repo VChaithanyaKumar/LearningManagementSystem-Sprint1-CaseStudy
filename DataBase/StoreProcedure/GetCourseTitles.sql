@@ -1,4 +1,4 @@
-alter procedure GetCourseTitles
+create procedure GetCourseTitles
 as
 begin
 select CourseTitle from Course

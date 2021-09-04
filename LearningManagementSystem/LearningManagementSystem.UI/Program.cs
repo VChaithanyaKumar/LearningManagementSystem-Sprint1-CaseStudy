@@ -17,6 +17,7 @@ namespace LearningManagementSystem.UI
                 LearnerServices learnerServices = null;
                 User user = null;
                 Course course = null;
+                Question question = null;
                 do
                 {
                     //Menu Options
@@ -32,7 +33,7 @@ namespace LearningManagementSystem.UI
 
                                 Console.WriteLine("1. Admin Login");
                                 Console.WriteLine("2. Learner Login");
-                                Console.WriteLine("3. Go Back");
+                                Console.WriteLine("3. Go Back to Main Menu");
                                 Console.Write("Enter your choice: ");
                                 int ch1 = int.Parse(Console.ReadLine());
                                 loginService = new LoginService();
@@ -66,6 +67,7 @@ namespace LearningManagementSystem.UI
                                                     Console.WriteLine("7.Assign Course");
                                                     Console.WriteLine("8.Get Course Status: ");
                                                     Console.WriteLine("9.Get Report");
+                                                    Console.WriteLine("10.Go Back to Login Menu");
                                                     Console.Write("Choose the Admin Service: ");
                                                     int adminServiceOption = int.Parse(Console.ReadLine());
                                                     switch (adminServiceOption)
@@ -123,6 +125,35 @@ namespace LearningManagementSystem.UI
                                                             Console.WriteLine("Enter User Email to delete the User");
                                                             adminServices.DeleteUser(Console.ReadLine());
                                                             break;
+                                                        case 4:
+                                                            //Add New Course
+                                                            Console.WriteLine("----------Adding New Course--------------");
+                                                            course = new Course();
+                                                            Console.Write("Enter Course Title: ");
+                                                            course.CourseTitle = Console.ReadLine();
+                                                            Console.Write("Enter Course Description: ");
+                                                            course.CourseDescription = Console.ReadLine();
+                                                            Console.Write("Enter Course OutComes: ");
+                                                            course.CourseOutcomes = Console.ReadLine();
+                                                            adminServices.AddCourse(course);
+                                                            Console.Write("Do you want to add question and answer to the Course:Enter['Y'/'N']: ");
+                                                            char choice = Char.Parse(Console.ReadLine());
+                                                            if (choice == 'Y')
+                                                            {
+                                                                Console.Write("Enter the number of questions: ");
+                                                                int question_nums = int.Parse(Console.ReadLine());
+                                                                for (var i = 1; i <= question_nums; i++)
+                                                                {
+                                                                    question = new Question();
+                                                                    Console.Write("Enter question number: " + i);
+                                                                    question.QuestionDescription = Console.ReadLine();
+                                                                    Console.Write("Enter Answer for question: " + i);
+                                                                    question.AnswerDescription = Console.ReadLine();
+                                                                    adminServices.AddCourseQuestion(question, course);
+
+                                                                }
+                                                            }
+                                                            break;
                                                         case 5:
                                                             //delete Course:
                                                             adminServices = new AdminServices();
@@ -131,14 +162,16 @@ namespace LearningManagementSystem.UI
                                                             adminServices.DeleteCourse(Console.ReadLine());
                                                             break;
                                                         case 6:
-                                                            //display all course details
+                                                            //update course details
                                                             adminServices = new AdminServices();
+                                                            //displaying course titles
                                                             adminServices.GetCourseTitles();
                                                             course = new Course();
                                                             Console.WriteLine("Enter course title to update");
                                                             course.CourseTitle = (Console.ReadLine());
                                                             Console.WriteLine("1.Update course description");
                                                             Console.WriteLine("2.Update course out comes");
+                                                            Console.Write("Enter your choice: ");
                                                             int ch_update = int.Parse(Console.ReadLine());
                                                             switch (ch_update)
                                                             {
@@ -196,6 +229,9 @@ namespace LearningManagementSystem.UI
                                                                 Console.WriteLine("Invalid choice");
                                                                 break;
                                                             }
+                                                        case 10:
+
+                                                            return;
                                                         
                                                     }  
                                                 }
@@ -223,6 +259,7 @@ namespace LearningManagementSystem.UI
                                                     
                                                     Console.WriteLine("Enter [1] to Enroll a Course");
                                                     Console.WriteLine("Enter [2] to Complete a Course");
+                                                    Console.WriteLine("Enter [3] to go back to Login Menu");
                                                     Console.Write("Enter Learner Service to do: ");
                                                     int loginServiceOption = int.Parse(Console.ReadLine());
                                                     switch (loginServiceOption)
@@ -240,7 +277,7 @@ namespace LearningManagementSystem.UI
                                                         case 2:
                                                             {
                                                                 learnerServices = new LearnerServices();
-                                                                Console.Write("Enter Course Title to Enroll: ");
+                                                                Console.Write("Enter Course Title to Complete: ");
                                                                 string CourseTitle = Console.ReadLine();
                                                                 learnerServices.CompleteCourse(user.UserEmail, CourseTitle);
                                                                 break;
@@ -251,6 +288,8 @@ namespace LearningManagementSystem.UI
                                                                 Console.WriteLine("Invalid choice");
                                                                 break;
                                                             }
+                                                        case 3:
+                                                            continue;
                                                     } 
                                                 }
 

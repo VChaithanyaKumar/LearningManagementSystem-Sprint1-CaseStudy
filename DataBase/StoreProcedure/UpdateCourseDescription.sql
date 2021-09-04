@@ -1,5 +1,5 @@
 --procedure to update the course description
-alter procedure UpdateCourseDescription(@CourseTitle varchar(30),@CourseDescription varchar(100))
+create procedure UpdateCourseDescription(@CourseTitle varchar(30),@CourseDescription varchar(100))
 as
 begin
 	declare @CourseId numeric(10)

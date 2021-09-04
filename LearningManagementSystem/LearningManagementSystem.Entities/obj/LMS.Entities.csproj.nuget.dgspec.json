@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj": {}
+    "G:\\Capgemini Training\\Final-LMS Sprint1\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj": {}
   },
   "projects": {
-    "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj": {
+    "G:\\Capgemini Training\\Final-LMS Sprint1\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj",
+        "projectUniqueName": "G:\\Capgemini Training\\Final-LMS Sprint1\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj",
         "projectName": "LMS.Entities",
-        "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\obj\\",
+        "projectPath": "G:\\Capgemini Training\\Final-LMS Sprint1\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\LMS.Entities.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "G:\\Capgemini Training\\Final-LMS Sprint1\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LearningManagementSystem.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

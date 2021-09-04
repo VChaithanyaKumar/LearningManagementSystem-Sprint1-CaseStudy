@@ -1,5 +1,5 @@
 --procedure to delete a course
-alter procedure DeleteCourse(@CourseTitle varchar(30))
+create procedure DeleteCourse(@CourseTitle varchar(30))
 as
 begin
 	declare @CourseId numeric(10)
