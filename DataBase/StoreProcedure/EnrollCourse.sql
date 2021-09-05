@@ -1,4 +1,4 @@
-create procedure EnrollCourse(@UserEmail varchar(30),@CourseTitle varchar(30))
+alter procedure EnrollCourse(@UserEmail varchar(30),@CourseTitle varchar(30))
 as
 begin
 	declare @UserId numeric(10),@CourseId numeric(10)

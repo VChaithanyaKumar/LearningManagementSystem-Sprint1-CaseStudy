@@ -454,19 +454,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sai kiran\\.nuget\\packages\\": {}
+    "C:\\Users\\hp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "A:\\capgemini\\.Net\\visual studio\\testmodule\\testmodule.csproj",
+      "projectUniqueName": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\Test Function and its stored procedures\\testmodule\\testmodule.csproj",
       "projectName": "testmodule",
-      "projectPath": "A:\\capgemini\\.Net\\visual studio\\testmodule\\testmodule.csproj",
-      "packagesPath": "C:\\Users\\Sai kiran\\.nuget\\packages\\",
-      "outputPath": "A:\\capgemini\\.Net\\visual studio\\testmodule\\obj\\",
+      "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\Test Function and its stored procedures\\testmodule\\testmodule.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\Test Function and its stored procedures\\testmodule\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sai kiran\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -512,7 +512,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
       }
     }
   }
