@@ -16,12 +16,20 @@ namespace LMS.BAL
 
             try
             {
-                learnerRepository.EnrollCourse(user, course);
-                Console.WriteLine("User is Enrolled to Course Successfully");
+                List<string> courseTitles = learnerRepository.GetCourseTitles();
+                if (courseTitles.Contains(course.CourseTitle))
+                {
+                    learnerRepository.EnrollCourse(user, course);
+                    Console.WriteLine("User is Enrolled to Course Successfully!");
+                }
+                else
+                {
+                    Console.WriteLine("Entered Course is not present in the Course List Provided");
+                }
             }
             catch (Exception e)
             {
-                //Console.WriteLine("Entered Invalid Course.Please Try Again!!");
+                Console.WriteLine("Entered Invalid Course.Please Try Again!!");
                 Console.WriteLine(e.Message);
 
             }
@@ -31,9 +39,9 @@ namespace LMS.BAL
         public void GetCourseTitles()
         {
             int i = 1;
-            List<string> course = learnerRepository.GetCourseTitles();
+            List<string> courseTitles = learnerRepository.GetCourseTitles();
             Console.WriteLine("Below are the available Courses. Please choose the Course to Enroll");
-            course.ForEach(value => Console.WriteLine(value));
+            courseTitles.ForEach(value => Console.WriteLine(value));
         }
         //Mark course as complete
         public void CompleteCourse(User user,string CourseTitle)
@@ -92,7 +100,7 @@ namespace LMS.BAL
                 float Result = (marks / (float)AnswerList.Count) * 100;
                 //Console.WriteLine(Result);
                 learnerRepository.UpdateResult(UserEmail, CourseTitle, Result);
-                Console.WriteLine("Submitted the test Successfully");
+                Console.WriteLine("Submitted the test Successfully! If you want to view your result please go to View Certification option");
             }
             catch (Exception e)
             {
@@ -124,7 +132,8 @@ namespace LMS.BAL
             }
             else
             {
-                Console.WriteLine("User has not passed the test! Please Attempt your test again");
+                Console.WriteLine("The Percentage Obtained: " + result.ResultDescription);
+                Console.WriteLine("You have not passed the test! Please Attempt your test again");
             }
         }
     }

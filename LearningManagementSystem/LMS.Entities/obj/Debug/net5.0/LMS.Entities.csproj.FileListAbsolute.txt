@@ -22,3 +22,15 @@ G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSy
 G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.dll
 G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\ref\LMS.Entities.dll
 G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.pdb
+G:\MyCopyLMS\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.deps.json
+G:\MyCopyLMS\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.dll
+G:\MyCopyLMS\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\ref\LMS.Entities.dll
+G:\MyCopyLMS\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.pdb
+G:\MyCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.csproj.AssemblyReference.cache
+G:\MyCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.GeneratedMSBuildEditorConfig.editorconfig
+G:\MyCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfoInputs.cache
+G:\MyCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfo.cs
+G:\MyCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.csproj.CoreCompileInputs.cache
+G:\MyCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.dll
+G:\MyCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\ref\LMS.Entities.dll
+G:\MyCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.pdb

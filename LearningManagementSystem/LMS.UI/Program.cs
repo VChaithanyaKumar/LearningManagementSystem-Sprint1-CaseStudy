@@ -289,13 +289,13 @@ namespace LMS.UI
                                         }
                                     case 2:
                                         {
-                                            //Learner Login--Praveena
-                                            user = new User();
+                                        //Learner Login--Praveena
+                              LearnerLogin: user = new User();
                                             user.UserType = "Learner";
                                             Console.WriteLine("Learner Login Page");
                                             Console.WriteLine("Enter Login Details of a Learner:");
                                             Console.WriteLine("-------------------------------------");
-                    LearnerLogin:           Console.Write("Enter Email [abc@gmail.com]: ");
+                                            Console.Write("Enter Email [abc@gmail.com]: ");
                                             user.UserEmail = Console.ReadLine();
                                             Console.Write("Enter Password: ");
                                             //password masking!
@@ -351,7 +351,7 @@ namespace LMS.UI
                                                                 //Complete the Course--Praveena
                                                                 Console.WriteLine("----------------Take the Course-----------------");
                                                                 learnerServices = new LearnerServices();
-                                                                Console.WriteLine("Here is the List of Courses you have Enrolled");
+                                                                Console.WriteLine("Here is the List of Courses you have Enrolled and Yet to Complete");
                                                                 learnerServices.GetEnrolledCourses(user.UserEmail);
                                                                 Console.Write("Enter Course Title to Complete: ");
                                                                 learnerServices.CompleteCourse(user, Console.ReadLine());
