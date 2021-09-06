@@ -25,7 +25,7 @@ namespace LMS.DAL
         //SqlConnection connection = new SqlConnection(@"Data Source=DESKTOP-S7KB19C\SQLEXPRESS01;Initial Catalog=LearningManagementSystem;Integrated Security=True");
         SqlCommand command = null;
 
-        public void CompleteCourse(string UserEmail, string CourseTitle)
+        public void CompleteCourse(User user, string CourseTitle)
         {
             try
             {
@@ -33,7 +33,7 @@ namespace LMS.DAL
                 {
                     CommandType = CommandType.StoredProcedure
                 };
-                command.Parameters.AddWithValue("@UserEmail", UserEmail);
+                command.Parameters.AddWithValue("@UserEmail", user.UserEmail);
                 command.Parameters.AddWithValue("@CourseTitle", CourseTitle);
                 //command.Parameters.AddWithValue("@AssignCourseReturnMsg","out");
                 connection.Open();
@@ -51,7 +51,7 @@ namespace LMS.DAL
 
         }
 
-        public void EnrollCourse(string UserEmail, string CourseTitle)
+        public void EnrollCourse(User user, Course course)
         {
             try
             {
@@ -59,8 +59,8 @@ namespace LMS.DAL
                 {
                     CommandType = CommandType.StoredProcedure
                 };
-                command.Parameters.AddWithValue("@UserEmail", UserEmail);
-                command.Parameters.AddWithValue("@CourseTitle", CourseTitle);
+                command.Parameters.AddWithValue("@UserEmail", user.UserEmail);
+                command.Parameters.AddWithValue("@CourseTitle", course.CourseTitle);
                 //command.Parameters.AddWithValue("@AssignCourseReturnMsg","out");
                 connection.Open();
                 command.ExecuteNonQuery();
@@ -258,25 +258,29 @@ namespace LMS.DAL
             }
         }
 
-        public double GetResult(string UserEmail, string CourseTitle)
+        public Result GetResult(User user, string CourseTitle)
         {
             try
             {
+                Result result = null;
                 command = new SqlCommand("GetResult", connection)
                 {
                     CommandType = System.Data.CommandType.StoredProcedure
                 };
-                command.Parameters.AddWithValue("@UserEmail", UserEmail);
+                command.Parameters.AddWithValue("@UserEmail", user.UserEmail);
                 command.Parameters.AddWithValue("@CourseTitle", CourseTitle);
                 connection.Open();
                 SqlDataReader dataReader = command.ExecuteReader();
                 if (dataReader.HasRows)
                 {
                     dataReader.Read();
-                    double Result = (double)dataReader["ResultDescription"];
-                    return Result;
+                    result = new Result()
+                    {
+                        ResultDescription = (double)dataReader["ResultDescription"]
+                    };
+                    return result;
                 }
-                return 0;
+                return result;
             }
             catch (Exception)
             {

@@ -13,13 +13,13 @@ namespace LMS.UI
         {
             try
             {
-                RegisterService registerService = null;
-                LoginService loginService = null;
-                AdminServices adminServices = null;
-                LearnerServices learnerServices = null;
-                User user = null;
-                Course course = null;
-                Question question = null;
+                RegisterService registerService = null;//object declaration for register services
+                LoginService loginService = null;//object declaration for login services
+                AdminServices adminServices = null;//object declaration for Admin services
+                LearnerServices learnerServices = null;//object declaration for Learner services
+                User user = null;//object declaration for User
+                Course course = null;//object declaration for Course
+                Question question = null;//object declaration for Question
                 do
                 {
                     //Menu Options
@@ -247,7 +247,7 @@ namespace LMS.UI
                                             user.UserType = "Learner";
                                             Console.WriteLine("Enter Login Details of a Learner:");
                                             Console.WriteLine("-------------------------------------");
-                                            Console.Write("Enter Email [abc@gmail.com]: ");
+                    LearnerLogin:                        Console.Write("Enter Email [abc@gmail.com]: ");
                                             user.UserEmail = Console.ReadLine();
                                             Console.Write("Enter Password: ");
                                             user.UserPassword = Console.ReadLine();
@@ -276,7 +276,7 @@ namespace LMS.UI
                                                                 learnerServices.GetCourseTitles();
                                                                 Console.Write("Enter Course Title to Enroll: ");
                                                                 course.CourseTitle = Console.ReadLine();
-                                                                learnerServices.EnrollCourse(user.UserEmail, course.CourseTitle);
+                                                                learnerServices.EnrollCourse(user, course);
 
                                                                 break;
                                                             }
@@ -285,7 +285,7 @@ namespace LMS.UI
                                                                 //Complete the Course--Praveena
                                                                 learnerServices = new LearnerServices();
                                                                 Console.Write("Enter Course Title to Complete: ");
-                                                                learnerServices.CompleteCourse(user.UserEmail, Console.ReadLine());
+                                                                learnerServices.CompleteCourse(user, Console.ReadLine());
                                                                 break;
                                                             }
                                                         case 3:
@@ -319,7 +319,7 @@ namespace LMS.UI
                                                                 learnerServices.GetCompletedCourses(user.UserEmail);
                                                                 Console.Write("Enter Course Name To get Certificate: ");
                                                                 string CourseTitle = Console.ReadLine();
-                                                                learnerServices.ViewSubmissionCertificate(user.UserEmail, CourseTitle);
+                                                                learnerServices.ViewSubmissionCertificate(user, CourseTitle);
                                                                 break;
                                                             }
                                                         default:
@@ -334,7 +334,11 @@ namespace LMS.UI
                                                 }
 
                                             }
-                                            break;
+                                            else
+                                            {
+                                                goto LearnerLogin;
+                                            }
+                                            //break;
                                         }
                                     case 3:
                                         {

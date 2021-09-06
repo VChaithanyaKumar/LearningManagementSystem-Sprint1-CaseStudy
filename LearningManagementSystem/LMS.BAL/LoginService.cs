@@ -17,7 +17,7 @@ namespace LMS.BAL
             userObj=login.GetLoginDetails(user.UserEmail);
             if (userObj == null)
             {
-                Console.WriteLine("Invalid Email");
+                Console.WriteLine("Invalid Email! Please Try again");
                 return false;
             }
             if (!LoginValidation.CheckUserType(user.UserType,userObj.UserType))
@@ -33,7 +33,7 @@ namespace LMS.BAL
             }
             else
             {
-                Console.WriteLine("Invalid Password!! ");
+                Console.WriteLine("Invalid Password!! Please Try again");
                 return false;
             }
 

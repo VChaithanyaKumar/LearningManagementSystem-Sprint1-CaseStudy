@@ -9,16 +9,16 @@ namespace LMS.DAL
 {
     interface ILearnerRepository
     {
-        void EnrollCourse(string UserEmail, string CourseTitle);
+        void EnrollCourse(User user, Course course);
         List<string> GetCourseTitles();
-        void CompleteCourse(string UserEmail, string CourseTitle);
+        void CompleteCourse(User user, string CourseTitle);
         List<string> GetCompletedCourses(string UserEmail);
         void StartTest(string UserEmail, string CourseTitle);
         //int GetQuestionCount(string CourseTitle);
         List<string> GetQuestions(string CourseTitle);
         List<string> GetAnswers(string CourseTitle);
         void UpdateResult(string UserEmail, string CourseTitle, float Percentage);
-        double GetResult(string UserEmail, string CourseTitle);
+        Result GetResult(User user, string CourseTitle);
         User GetUserDetails(string UserEmail);
     }
 }

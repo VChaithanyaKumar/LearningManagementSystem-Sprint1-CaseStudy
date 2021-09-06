@@ -11,16 +11,17 @@ namespace LMS.BAL
     {
         private LearnerRepository learnerRepository = new LearnerRepository();
         //Enrollment to course
-        public void EnrollCourse(string UserEmail, string CourseTitle)
+        public void EnrollCourse(User user, Course course)
         {
 
             try
             {
-                learnerRepository.EnrollCourse(UserEmail, CourseTitle);
+                learnerRepository.EnrollCourse(user, course);
                 Console.WriteLine("User is Enrolled to Course Successfully");
             }
             catch (Exception e)
             {
+                Console.WriteLine("Entered Invalid Course.Please Try Again!!");
                 Console.WriteLine(e.Message);
 
             }
@@ -34,11 +35,11 @@ namespace LMS.BAL
             course.ForEach(value => Console.WriteLine((i++) +". " + value));
         }
         //Mark course as complete
-        public void CompleteCourse(string UserEmail,string CourseTitle)
+        public void CompleteCourse(User user,string CourseTitle)
         {
             try
             {
-                learnerRepository.CompleteCourse(UserEmail, CourseTitle);
+                learnerRepository.CompleteCourse(user, CourseTitle);
                 Console.WriteLine("Completed the Course Successfully!!");
             }
             catch (Exception e)
@@ -64,6 +65,7 @@ namespace LMS.BAL
             List<string> Questions = learnerRepository.GetQuestions(CourseTitle);
             return Questions;
         }
+        //Submit test
         public void SubmitTest(List<string> Answers,string CourseTitle,string UserEmail)
         {
             try
@@ -91,23 +93,24 @@ namespace LMS.BAL
 
             
         }
-        public void ViewSubmissionCertificate(string UserEmail,string CourseTitle)
+        public void ViewSubmissionCertificate(User user,string CourseTitle)
         {
-            double Result = learnerRepository.GetResult(UserEmail, CourseTitle);
-            Console.WriteLine(Result);
-            if (Result == 0)
+            Result result = learnerRepository.GetResult(user, CourseTitle);
+            //Console.WriteLine(Result);
+            if (result.ResultDescription == 0)
             {
                 Console.WriteLine("User has not Attempted the Test yet. Please Take the test");
                 return;
             }
-            User user = learnerRepository.GetUserDetails(UserEmail);
-            if (Result > 60)
+            user = new User();
+            user = learnerRepository.GetUserDetails(user.UserEmail);
+            if (result.ResultDescription > 60)
             {
                 Console.WriteLine("_________________________________________________________________");
                 Console.WriteLine("             Course Completion Certificate               ");
                 Console.WriteLine("_________________________________________________________________");
                 Console.WriteLine("Mr/Ms " + user.UserFirstName + " " + user.UserLastName + " Completed the Course '" + CourseTitle + "' Successfully!");
-                Console.WriteLine("Percentage Obtained: " + Result);
+                Console.WriteLine("Percentage Obtained: " + result.ResultDescription);
                 Console.WriteLine("_________________________________________________________________");
             }
             else

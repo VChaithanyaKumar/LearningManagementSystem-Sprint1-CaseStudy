@@ -10,3 +10,15 @@ G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entit
 G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.dll
 G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\ref\LMS.Entities.dll
 G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.pdb
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.deps.json
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\ref\LMS.Entities.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.pdb
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.csproj.AssemblyReference.cache
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.GeneratedMSBuildEditorConfig.editorconfig
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfoInputs.cache
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfo.cs
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.csproj.CoreCompileInputs.cache
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\ref\LMS.Entities.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.pdb
