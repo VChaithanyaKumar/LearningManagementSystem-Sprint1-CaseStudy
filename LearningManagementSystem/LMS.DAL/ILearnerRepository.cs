@@ -20,5 +20,6 @@ namespace LMS.DAL
         void UpdateResult(string UserEmail, string CourseTitle, float Percentage);
         Result GetResult(User user, string CourseTitle);
         User GetUserDetails(string UserEmail);
+        List<string> GetEnrolledCourses(string UserEmail);
     }
 }

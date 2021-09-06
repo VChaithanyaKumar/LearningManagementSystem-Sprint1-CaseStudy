@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BUM+jp4yj3crIMyK4E+eurMoKsEkKbU6Ktpa/MApplyXdv6NbRD2zARz6vlwK785lq2uY8F+MPUTPpz5uLTCxw==",
+  "dgSpecHash": "/zGFWHhvgJmVG1llr72MfbdUyFGyDznaiFVmwqdD8TR9dUSL0TiA1TxPhy5yjK5OFTDWgQU8CFvmHJv49WmIMw==",
   "success": true,
-  "projectFilePath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj",
+  "projectFilePath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

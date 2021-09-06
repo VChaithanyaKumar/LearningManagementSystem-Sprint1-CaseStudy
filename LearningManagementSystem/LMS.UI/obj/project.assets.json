@@ -513,11 +513,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.UI\\LMS.UI.csproj",
+      "projectUniqueName": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.UI\\LMS.UI.csproj",
       "projectName": "LMS.UI",
-      "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.UI\\LMS.UI.csproj",
+      "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.UI\\LMS.UI.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.UI\\obj\\",
+      "outputPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -534,11 +534,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj": {
-              "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj"
+            "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj": {
+              "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj"
             },
-            "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj": {
-              "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj"
+            "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj": {
+              "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj"
             }
           }
         }

@@ -139,6 +139,38 @@ namespace LMS.DAL
                 connection.Close();
             }
         }
+        public List<string> GetEnrolledCourses(string UserEmail)
+        {
+            try
+            {
+                command = new SqlCommand("GetEnrolledCourses", connection)
+                {
+                    CommandType = System.Data.CommandType.StoredProcedure
+                };
+                command.Parameters.AddWithValue("@UserEmail", UserEmail);
+                connection.Open();
+                SqlDataReader dataReader = command.ExecuteReader();
+                List<string> completedcourses = new List<string>();
+                if (dataReader.HasRows)
+                {
+                    while (dataReader.Read())
+                    {
+                        completedcourses.Add(dataReader["CourseTitle"].ToString());
+                    }
+                }
+                return completedcourses;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                connection.Close();
+            }
+        }
+
 
 
         public List<string> GetAnswers(string CourseTitle)

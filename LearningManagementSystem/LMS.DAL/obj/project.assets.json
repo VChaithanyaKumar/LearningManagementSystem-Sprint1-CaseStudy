@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj",
+      "projectUniqueName": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj",
       "projectName": "LMS.DAL",
-      "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj",
+      "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.DAL\\obj\\",
+      "outputPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -496,8 +496,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj": {
-              "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj"
+            "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj": {
+              "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj"
             }
           }
         }

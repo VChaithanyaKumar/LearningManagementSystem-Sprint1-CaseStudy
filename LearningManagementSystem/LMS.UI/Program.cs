@@ -22,10 +22,12 @@ namespace LMS.UI
                 Question question = null;//object declaration for Question
                 do
                 {
-                    //Menu Options
-         MainMenu:  Console.WriteLine("1. Existing User");
-                    Console.WriteLine("2. New User");
-                    Console.WriteLine("3. Exit");
+                //Menu Options
+          MainMenu: Console.WriteLine("Welcome to 'Learning Management System'");
+                    Console.WriteLine("Please select the options below to proceed");
+                    Console.WriteLine("Enter [1] for 'Existing User'");
+                    Console.WriteLine("Enter [2] for 'New User'");
+                    Console.WriteLine("Enter [3] to 'Exit'");
                     Console.Write("Enter your choice: ");
                     int ch = int.Parse(Console.ReadLine());
                     switch (ch)
@@ -33,9 +35,11 @@ namespace LMS.UI
                         case 1:
                             {
 
-                LoginMenu:      Console.WriteLine("1. Admin Login");
-                                Console.WriteLine("2. Learner Login");
-                                Console.WriteLine("3. Go Back to Main Menu");
+
+                            LoginMenu: Console.WriteLine("Please select your respected 'login' to proceed to below");
+                                Console.WriteLine("Enter [1] 'Admin Login'");
+                                Console.WriteLine("Enter [2] 'Learner Login'");
+                                Console.WriteLine("Enter [3] to 'Go Back to Main Menu'");
                                 Console.Write("Enter your choice: ");
                                 int ch1 = int.Parse(Console.ReadLine());
                                 loginService = new LoginService();
@@ -46,7 +50,7 @@ namespace LMS.UI
                                             //Admin Login--Praveena
                                             user = new User();
                                             user.UserType = "Admin";
-                                            Console.WriteLine("Enter Login Details of an Admin:");
+                                            Console.WriteLine("Login Details of an Admin:");
                                             Console.WriteLine("-------------------------------------");
                                             Console.Write("Enter Email [abc@gmail.com]: ");
                                             user.UserEmail = Console.ReadLine();
@@ -76,18 +80,18 @@ namespace LMS.UI
                                                 while (true)
                                                 {
                                                     //Admin Services Provided
-                    AdminServices:                  Console.WriteLine("Admin Services");
+                    AdminServices:                  Console.WriteLine("Admin Services List:");
                                                     Console.WriteLine("-------------------------");
-                                                    Console.WriteLine("1.Add New User");
-                                                    Console.WriteLine("2.Update User");
-                                                    Console.WriteLine("3.Delete User");
-                                                    Console.WriteLine("4.Add New Course");
-                                                    Console.WriteLine("5.Delete Course");
-                                                    Console.WriteLine("6.Update course Details");
-                                                    Console.WriteLine("7.Assign Course");
-                                                    Console.WriteLine("8.Get Course Status: ");
-                                                    Console.WriteLine("9.Get Report");
-                                                    Console.WriteLine("10.Go Back to Login Menu");
+                                                    Console.WriteLine("Enter [1] 'Add New User'");
+                                                    Console.WriteLine("Enter [2] 'Update User'");
+                                                    Console.WriteLine("Enter [3] 'Delete User'");
+                                                    Console.WriteLine("Enter [4] 'Add New Course'");
+                                                    Console.WriteLine("Enter [5] 'Delete Course'");
+                                                    Console.WriteLine("Enter [6] 'Update course Details'");
+                                                    Console.WriteLine("Enter [7] 'Assign Course'");
+                                                    Console.WriteLine("Enter [8] 'Get Course Status' ");
+                                                    Console.WriteLine("Enter [9] 'Get Report'");
+                                                    Console.WriteLine("Enter [10] 'Go Back to Login Menu'");
                                                     Console.Write("Choose the Admin Service: ");
                                                     int adminServiceOption = int.Parse(Console.ReadLine());
                                                     switch (adminServiceOption)
@@ -95,6 +99,7 @@ namespace LMS.UI
                                                         //Add User
                                                         case 1:
                                                             user = new User();
+                                                            Console.WriteLine("----------------Adding New User-----------------");
                                                             registerService = new RegisterService();
                                                             string passwordRetype = "";
                                                             Console.Write("Enter User Type[ Admin/ Leaner]: ");
@@ -148,6 +153,7 @@ namespace LMS.UI
                                                             break;
                                                         case 2:
                                                             //Update Password
+                                                            Console.WriteLine("----------------Update User Password-----------------");
                                                             adminServices = new AdminServices();
                                                             Console.Write("Enter the User Email to Update Password: ");
                                                             string Email = Console.ReadLine();
@@ -159,6 +165,7 @@ namespace LMS.UI
                                                             break;
                                                         case 3:
                                                             //delete User
+                                                            Console.WriteLine("----------------Deleting User-----------------");
                                                             adminServices = new AdminServices();
                                                             Console.WriteLine("Enter User Email to delete the User");
                                                             adminServices.DeleteUser(Console.ReadLine());
@@ -194,6 +201,7 @@ namespace LMS.UI
                                                             break;
                                                         case 5:
                                                             //delete Course:
+                                                            Console.WriteLine("----------------Deleting a Course-----------------");
                                                             adminServices = new AdminServices();
                                                             adminServices.GetCourseTitles();
                                                             Console.Write("Enter Course title to delete:");
@@ -201,6 +209,7 @@ namespace LMS.UI
                                                             break;
                                                         case 6:
                                                             //update course details
+                                                            Console.WriteLine("----------------Updating a Course-----------------");
                                                             adminServices = new AdminServices();
                                                             //displaying course titles
                                                             adminServices.GetCourseTitles();//Gets all the Courses
@@ -228,6 +237,7 @@ namespace LMS.UI
                                                         case 7:
                                                             {
                                                                 //Assign User to the Course..
+                                                                Console.WriteLine("----------------Assigning User to Course-----------------");
                                                                 adminServices = new AdminServices();
                                                                 Console.Write("Enter User email to assign a course: ");
                                                                 string UserEmail = Console.ReadLine();
@@ -239,6 +249,7 @@ namespace LMS.UI
                                                         case 8:
                                                             {
                                                                 //Get Completed Status.
+                                                                Console.WriteLine("----------------Get User Course Completion Status-----------------");
                                                                 adminServices = new AdminServices();
                                                                 Console.Write("Enter the UserId to get complete status: ");
                                                                 int UserId = int.Parse(Console.ReadLine());
@@ -254,7 +265,7 @@ namespace LMS.UI
                                                             {
                                                                 //report on the available data – course wise, status of completion wise.
                                                                 adminServices = new AdminServices();
-                                                                Console.WriteLine("Generate the Report Of a User:");
+                                                                Console.WriteLine("-----------Generating the Report Of a User----------- ");
                                                                 Console.Write("Enter the UserEmail to get Report: ");
                                                                 string UserEmail = Console.ReadLine();
                                                                 Console.WriteLine("_________________________________");
@@ -281,9 +292,10 @@ namespace LMS.UI
                                             //Learner Login--Praveena
                                             user = new User();
                                             user.UserType = "Learner";
+                                            Console.WriteLine("Learner Login Page");
                                             Console.WriteLine("Enter Login Details of a Learner:");
                                             Console.WriteLine("-------------------------------------");
-                    LearnerLogin:                        Console.Write("Enter Email [abc@gmail.com]: ");
+                    LearnerLogin:           Console.Write("Enter Email [abc@gmail.com]: ");
                                             user.UserEmail = Console.ReadLine();
                                             Console.Write("Enter Password: ");
                                             //password masking!
@@ -312,7 +324,6 @@ namespace LMS.UI
                                                 {
                     LoginServices:                  Console.WriteLine("Learner Services");
                                                     Console.WriteLine("-------------------------");
-
                                                     Console.WriteLine("Enter [1] to Enroll a Course");
                                                     Console.WriteLine("Enter [2] to Complete a Course");
                                                     Console.WriteLine("Enter [3] to Attemp Test");
@@ -325,6 +336,7 @@ namespace LMS.UI
                                                         case 1:
                                                             {
                                                                 //Course Enroll--Praveena
+                                                                Console.WriteLine("----------------Enroll a Course-----------------");
                                                                 course = new Course();
                                                                 learnerServices = new LearnerServices();
                                                                 learnerServices.GetCourseTitles();
@@ -337,7 +349,10 @@ namespace LMS.UI
                                                         case 2:
                                                             {
                                                                 //Complete the Course--Praveena
+                                                                Console.WriteLine("----------------Take the Course-----------------");
                                                                 learnerServices = new LearnerServices();
+                                                                Console.WriteLine("Here is the List of Courses you have Enrolled");
+                                                                learnerServices.GetEnrolledCourses(user.UserEmail);
                                                                 Console.Write("Enter Course Title to Complete: ");
                                                                 learnerServices.CompleteCourse(user, Console.ReadLine());
                                                                 break;
@@ -345,9 +360,10 @@ namespace LMS.UI
                                                         case 3:
                                                             {
                                                                 //Taking Test--Sai Kiran
+                                                                Console.WriteLine("----------------Test Page-----------------");
                                                                 learnerServices = new LearnerServices();
                                                                 Console.WriteLine("Want to Take Test?");
-                                                                Console.WriteLine("Here is the List Of courses you completed");
+                                                                Console.WriteLine("Here is the List Of courses you completed. Please Enter Course Title to take Test");
                                                                 learnerServices.GetCompletedCourses(user.UserEmail);
                                                                 Console.Write("Enter Course Name To take Test: ");
                                                                 string CourseTitle = Console.ReadLine();
@@ -355,6 +371,7 @@ namespace LMS.UI
                                                                 //int questionCount = learnerServices.GetQuestionCount(CourseTitle);
                                                                 List<string> Questions = learnerServices.GetQuestions(CourseTitle);
                                                                 List<string> Answers = new List<string>();
+                                                                Console.WriteLine("No. Of Courses you have in this Test: "+Questions.Count);
                                                                 for (int i = 0; i < Questions.Count; i++)
                                                                 {
                                                                     Console.WriteLine((i+1) + "." + Questions[i]);
@@ -368,6 +385,7 @@ namespace LMS.UI
                                                         case 4:
                                                             {
                                                                 //Course Completetion Certificate--Praveena
+                                                                Console.WriteLine("----------------View Certificate Page-----------------");
                                                                 learnerServices = new LearnerServices();
                                                                 Console.WriteLine("Here is the List Of courses you completed");
                                                                 learnerServices.GetCompletedCourses(user.UserEmail);
@@ -383,7 +401,7 @@ namespace LMS.UI
                                                                 break;
                                                             }
                                                         case 5:
-                                                            break;
+                                                            goto LoginMenu;
                                                     }
                                                 }
 

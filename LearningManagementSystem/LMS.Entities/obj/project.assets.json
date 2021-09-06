@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj",
+      "projectUniqueName": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj",
       "projectName": "LMS.Entities",
-      "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj",
+      "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\obj\\",
+      "outputPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -30,7 +30,7 @@ namespace LMS.BAL
             if (LoginValidation.CheckPassword(user.UserPassword, userObj.UserPassword))
             {
                 Console.WriteLine();
-                Console.WriteLine("Logged In!!");
+                Console.WriteLine("Logged In Successfully.Please choose your required service!!");
                 return LoginValidation.LoginFlag();
                 
             }

@@ -21,7 +21,7 @@ namespace LMS.BAL
             }
             catch (Exception e)
             {
-                Console.WriteLine("Entered Invalid Course.Please Try Again!!");
+                //Console.WriteLine("Entered Invalid Course.Please Try Again!!");
                 Console.WriteLine(e.Message);
 
             }
@@ -32,7 +32,8 @@ namespace LMS.BAL
         {
             int i = 1;
             List<string> course = learnerRepository.GetCourseTitles();
-            course.ForEach(value => Console.WriteLine((i++) +". " + value));
+            Console.WriteLine("Below are the available Courses. Please choose the Course to Enroll");
+            course.ForEach(value => Console.WriteLine(value));
         }
         //Mark course as complete
         public void CompleteCourse(User user,string CourseTitle)
@@ -53,7 +54,15 @@ namespace LMS.BAL
             List<string> CompletedCourses=learnerRepository.GetCompletedCourses(UserEmail);
             for (int i = 0; i < CompletedCourses.Count; i++)
             {
-                Console.WriteLine((i+1)+". "+CompletedCourses[i]);
+                Console.WriteLine(CompletedCourses[i]);
+            }
+        }
+        public void GetEnrolledCourses(string UserEmail)
+        {
+            List<string> EnrolledCourses = learnerRepository.GetEnrolledCourses(UserEmail);
+            for (int i = 0; i < EnrolledCourses.Count; i++)
+            {
+                Console.WriteLine(EnrolledCourses[i]);
             }
         }
         public void StartTest(string UserEmail,string CourseTitle)
@@ -65,6 +74,7 @@ namespace LMS.BAL
             List<string> Questions = learnerRepository.GetQuestions(CourseTitle);
             return Questions;
         }
+
         //Submit test
         public void SubmitTest(List<string> Answers,string CourseTitle,string UserEmail)
         {
@@ -97,12 +107,11 @@ namespace LMS.BAL
         {
             Result result = learnerRepository.GetResult(user, CourseTitle);
             //Console.WriteLine(Result);
-            if (result.ResultDescription == 0)
+            if (result==null)
             {
                 Console.WriteLine("User has not Attempted the Test yet. Please Take the test");
                 return;
             }
-            user = new User();
             user = learnerRepository.GetUserDetails(user.UserEmail);
             if (result.ResultDescription > 60)
             {
