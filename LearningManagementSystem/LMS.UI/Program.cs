@@ -51,7 +51,25 @@ namespace LMS.UI
                                             Console.Write("Enter Email [abc@gmail.com]: ");
                                             user.UserEmail = Console.ReadLine();
                                             Console.Write("Enter Password: ");
-                                            user.UserPassword = Console.ReadLine();
+                                            //password masking
+                                            ConsoleKey key;
+                                            do
+                                            {
+                                                var keyInfo = Console.ReadKey(intercept: true);
+                                                key = keyInfo.Key;
+
+                                                if (key == ConsoleKey.Backspace && user.UserPassword.Length > 0)
+                                                {
+                                                    Console.Write("\b \b");
+                                                    user.UserPassword = user.UserPassword[0..^1];
+                                                }
+                                                else if (!char.IsControl(keyInfo.KeyChar))
+                                                {
+                                                    Console.Write("*");
+                                                    user.UserPassword += keyInfo.KeyChar;
+                                                }
+                                            } while (key != ConsoleKey.Enter);
+                                            //user.UserPassword = Console.ReadLine();
 
                                             if (loginService.LoginUser(user))
                                             {
@@ -81,7 +99,7 @@ namespace LMS.UI
                                                             string passwordRetype = "";
                                                             Console.Write("Enter User Type[ Admin/ Leaner]: ");
                                                             user.UserType = Console.ReadLine();
-                                                            Console.Write("Enter Learner Details:");
+                                                            Console.WriteLine("Enter Learner Details:");
                                                             Console.Write("Enter First name: ");
                                                             user.UserFirstName = Console.ReadLine();
                                                             Console.Write("Enter Last name: ");
@@ -93,10 +111,28 @@ namespace LMS.UI
                                                         PaswordType:
 
                                                             Console.Write("Enter password [Length- (8-15), one Upper Case, one Lower Case]: ");
-                                                            user.UserPassword = Console.ReadLine();
+                                                            //user.UserPassword = Console.ReadLine();
+                                                            //Password Masking
+                                                            do
+                                                            {
+                                                                var keyInfo = Console.ReadKey(intercept: true);
+                                                                key = keyInfo.Key;
+
+                                                                if (key == ConsoleKey.Backspace && user.UserPassword.Length > 0)
+                                                                {
+                                                                    Console.Write("\b \b");
+                                                                    user.UserPassword = user.UserPassword[0..^1];
+                                                                }
+                                                                else if (!char.IsControl(keyInfo.KeyChar))
+                                                                {
+                                                                    Console.Write("*");
+                                                                    user.UserPassword += keyInfo.KeyChar;
+                                                                }
+                                                            } while (key != ConsoleKey.Enter);
                                                             if (!RegisterValidation.ValidatePassword(user.UserPassword))
                                                             {
-                                                                Console.WriteLine("Your Password is meeting the requirements!! Please try again: ");
+                                                                Console.WriteLine();
+                                                                Console.WriteLine("Your Password is not meeting the requirements!! Please try again: ");
                                                                 goto PaswordType;
                                                             }
 
@@ -233,7 +269,7 @@ namespace LMS.UI
                                                             }
                                                         case 10:
 
-                                                            break;
+                                                            goto LoginMenu;
 
                                                     }
                                                 }
@@ -250,7 +286,25 @@ namespace LMS.UI
                     LearnerLogin:                        Console.Write("Enter Email [abc@gmail.com]: ");
                                             user.UserEmail = Console.ReadLine();
                                             Console.Write("Enter Password: ");
-                                            user.UserPassword = Console.ReadLine();
+                                            //password masking!
+                                            ConsoleKey key;
+                                            do
+                                            {
+                                                var keyInfo = Console.ReadKey(intercept: true);
+                                                key = keyInfo.Key;
+
+                                                if (key == ConsoleKey.Backspace && user.UserPassword.Length > 0)
+                                                {
+                                                    Console.Write("\b \b");
+                                                    user.UserPassword = user.UserPassword[0..^1];
+                                                }
+                                                else if (!char.IsControl(keyInfo.KeyChar))
+                                                {
+                                                    Console.Write("*");
+                                                    user.UserPassword += keyInfo.KeyChar;
+                                                }
+                                            } while (key != ConsoleKey.Enter);
+                                            //user.UserPassword = Console.ReadLine();
                                             //string UserEmail = user.UserEmail;
                                             if (loginService.LoginUser(user))
                                             {
@@ -367,7 +421,24 @@ namespace LMS.UI
                             PaswordType:
 
                                 Console.Write("Enter password [Length- (8-15), one Upper Case, one Lower Case]: ");
-                                user.UserPassword = Console.ReadLine();
+                                Console.Write("Enter Password: ");
+                                ConsoleKey key;
+                                do
+                                {
+                                    var keyInfo = Console.ReadKey(intercept: true);
+                                    key = keyInfo.Key;
+
+                                    if (key == ConsoleKey.Backspace && user.UserPassword.Length > 0)
+                                    {
+                                        Console.Write("\b \b");
+                                        user.UserPassword = user.UserPassword[0..^1];
+                                    }
+                                    else if (!char.IsControl(keyInfo.KeyChar))
+                                    {
+                                        Console.Write("*");
+                                        user.UserPassword += keyInfo.KeyChar;
+                                    }
+                                } while (key != ConsoleKey.Enter);
                                 if (!RegisterValidation.ValidatePassword(user.UserPassword))
                                 {
                                     Console.WriteLine("Your Password is meeting the requirements!! Please try again: ");

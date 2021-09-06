@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.UI\\LMS.UI.csproj": {}
+    "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.UI\\LMS.UI.csproj": {}
   },
   "projects": {
-    "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj": {
+    "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj",
+        "projectUniqueName": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj",
         "projectName": "LMS.BAL",
-        "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj",
+        "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.BAL\\obj\\",
+        "outputPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.BAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj": {
-                "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj"
+              "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj": {
+                "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj"
               },
-              "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj": {
-                "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj"
+              "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj": {
+                "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj"
               }
             }
           }
@@ -65,14 +65,14 @@
         }
       }
     },
-    "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj": {
+    "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj",
+        "projectUniqueName": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj",
         "projectName": "LMS.DAL",
-        "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj",
+        "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.DAL\\LMS.DAL.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.DAL\\obj\\",
+        "outputPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -89,8 +89,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj": {
-                "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj"
+              "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj": {
+                "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj"
               }
             }
           }
@@ -129,14 +129,14 @@
         }
       }
     },
-    "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj": {
+    "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj",
+        "projectUniqueName": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj",
         "projectName": "LMS.Entities",
-        "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj",
+        "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\obj\\",
+        "outputPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -183,14 +183,14 @@
         }
       }
     },
-    "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.UI\\LMS.UI.csproj": {
+    "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.UI\\LMS.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.UI\\LMS.UI.csproj",
+        "projectUniqueName": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.UI\\LMS.UI.csproj",
         "projectName": "LMS.UI",
-        "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.UI\\LMS.UI.csproj",
+        "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.UI\\LMS.UI.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.UI\\obj\\",
+        "outputPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -207,11 +207,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj": {
-                "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj"
+              "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj": {
+                "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.BAL\\LMS.BAL.csproj"
               },
-              "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj": {
-                "projectPath": "G:\\Module2Sprint\\LearningManagementSystem-Sprint1-CaseStudy\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj"
+              "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj": {
+                "projectPath": "G:\\MyNewCopyLMS\\LearningManagementSystem\\LMS.Entities\\LMS.Entities.csproj"
               }
             }
           }

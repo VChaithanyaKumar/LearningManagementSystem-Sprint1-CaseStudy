@@ -17,22 +17,26 @@ namespace LMS.BAL
             userObj=login.GetLoginDetails(user.UserEmail);
             if (userObj == null)
             {
+                Console.WriteLine();
                 Console.WriteLine("Invalid Email! Please Try again");
                 return false;
             }
             if (!LoginValidation.CheckUserType(user.UserType,userObj.UserType))
             {
+                Console.WriteLine();
                 Console.WriteLine("User is not " + user.UserType);
                 return false;
             }
             if (LoginValidation.CheckPassword(user.UserPassword, userObj.UserPassword))
             {
+                Console.WriteLine();
                 Console.WriteLine("Logged In!!");
                 return LoginValidation.LoginFlag();
                 
             }
             else
             {
+                Console.WriteLine();
                 Console.WriteLine("Invalid Password!! Please Try again");
                 return false;
             }
