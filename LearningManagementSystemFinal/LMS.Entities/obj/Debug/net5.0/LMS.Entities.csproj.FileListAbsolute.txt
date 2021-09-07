@@ -1,0 +1,48 @@
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.deps.json
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.dll
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\ref\LMS.Entities.dll
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.pdb
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.csproj.AssemblyReference.cache
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.GeneratedMSBuildEditorConfig.editorconfig
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfoInputs.cache
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfo.cs
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.csproj.CoreCompileInputs.cache
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.dll
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\ref\LMS.Entities.dll
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.pdb
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.deps.json
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\ref\LMS.Entities.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.pdb
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.csproj.AssemblyReference.cache
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.GeneratedMSBuildEditorConfig.editorconfig
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfoInputs.cache
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfo.cs
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.csproj.CoreCompileInputs.cache
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\ref\LMS.Entities.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.pdb
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.deps.json
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.dll
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\ref\LMS.Entities.dll
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.pdb
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.csproj.AssemblyReference.cache
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.GeneratedMSBuildEditorConfig.editorconfig
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfoInputs.cache
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfo.cs
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.csproj.CoreCompileInputs.cache
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.dll
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\ref\LMS.Entities.dll
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.pdb
+G:\MyNewCopyLMS\lms692021\lms8\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.deps.json
+G:\MyNewCopyLMS\lms692021\lms8\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.dll
+G:\MyNewCopyLMS\lms692021\lms8\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\ref\LMS.Entities.dll
+G:\MyNewCopyLMS\lms692021\lms8\LearningManagementSystem\LMS.Entities\bin\Debug\net5.0\LMS.Entities.pdb
+G:\MyNewCopyLMS\lms692021\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.csproj.AssemblyReference.cache
+G:\MyNewCopyLMS\lms692021\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.GeneratedMSBuildEditorConfig.editorconfig
+G:\MyNewCopyLMS\lms692021\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfoInputs.cache
+G:\MyNewCopyLMS\lms692021\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.AssemblyInfo.cs
+G:\MyNewCopyLMS\lms692021\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.csproj.CoreCompileInputs.cache
+G:\MyNewCopyLMS\lms692021\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.dll
+G:\MyNewCopyLMS\lms692021\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\ref\LMS.Entities.dll
+G:\MyNewCopyLMS\lms692021\lms8\LearningManagementSystem\LMS.Entities\obj\Debug\net5.0\LMS.Entities.pdb
