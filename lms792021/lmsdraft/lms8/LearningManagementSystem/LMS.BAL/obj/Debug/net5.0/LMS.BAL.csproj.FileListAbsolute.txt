@@ -1,0 +1,51 @@
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.BAL.deps.json
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.BAL.dll
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\ref\LMS.BAL.dll
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.BAL.pdb
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.DAL.dll
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.Entities.dll
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.DAL.pdb
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.Entities.pdb
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.csproj.AssemblyReference.cache
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.GeneratedMSBuildEditorConfig.editorconfig
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.AssemblyInfoInputs.cache
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.AssemblyInfo.cs
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.csproj.CoreCompileInputs.cache
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.csproj.CopyComplete
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.dll
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\ref\LMS.BAL.dll
+G:\MyNewCopyLMS\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.pdb
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.BAL.deps.json
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.BAL.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\ref\LMS.BAL.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.BAL.pdb
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.DAL.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.Entities.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.DAL.pdb
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.Entities.pdb
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.csproj.AssemblyReference.cache
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.GeneratedMSBuildEditorConfig.editorconfig
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.AssemblyInfoInputs.cache
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.AssemblyInfo.cs
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.csproj.CoreCompileInputs.cache
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.csproj.CopyComplete
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\ref\LMS.BAL.dll
+G:\Module2Sprint\LearningManagementSystem-Sprint1-CaseStudy\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.pdb
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.BAL.deps.json
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.BAL.dll
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\ref\LMS.BAL.dll
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.BAL.pdb
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.DAL.dll
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.Entities.dll
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.DAL.pdb
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\bin\Debug\net5.0\LMS.Entities.pdb
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.csproj.AssemblyReference.cache
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.GeneratedMSBuildEditorConfig.editorconfig
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.AssemblyInfoInputs.cache
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.AssemblyInfo.cs
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.csproj.CoreCompileInputs.cache
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.csproj.CopyComplete
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.dll
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\ref\LMS.BAL.dll
+A:\capgemini\casestudy1(LMS)\New folder\lms8\LearningManagementSystem\LMS.BAL\obj\Debug\net5.0\LMS.BAL.pdb
